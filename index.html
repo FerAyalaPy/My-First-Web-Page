@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mi Página Web Básica</title>
-	<style>
-		body {
-			background-color: #f8f8f8;
-			font-family: Arial, sans-serif;
-		}
-		
-		.container {
-			margin: 0 auto;
-			max-width: 800px;
-			padding: 20px;
-			background-color: #fff;
-			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-		}
-		
-		h1 {
-			color: #333;
-			font-size: 36px;
-			text-align: center;
-		}
-		
-		p {
-			color: #666;
-			font-size: 18px;
-			line-height: 1.5;
-			text-align: justify;
-		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<header>
-			<h1>Mi Página Web Básica</h1>
-		</header>
-		<main>
-			<p>¡Hola! Bienvenido a mi página web básica.</p>
-			<p>En este sitio web encontrarás información sobre mí y mis intereses.</p>
-		</main>
-		<footer>
-			<p>Copyright © 2023 - Mi Página Web Básica</p>
-		</footer>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio Personal</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #D3D3D3;
+      }
+      header {
+        background-color: #FFD1DC;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+      }
+      nav {
+        background-color: #CB99C9;
+        color: #fff;
+        padding: 10px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      section {
+        padding: 40px;
+        background-color: #AEC6CF;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      }
+      img {
+  display: block;
+  margin: 20 auto;
+  width: 200px; /* establece el ancho de la imagen en 400 píxeles */
+  height: auto;
+}
+      h2 {
+        font-size: 30px;
+        margin-top: 0;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fer Ayala</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Sobre Mí</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <section>
+        <img src="https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de cabecera">
+      <h2>Sobre mí</h2>
+      <p>Barrio Obrero - Asunción - Paraguay</p>
+    </section>
+    <section>
+      <h2>Proyectos</h2>
+      <p>Web Developer Jr.</p>
+    </section>
+    <section>
+      <h2>Contacto</h2>
+      <p>ferayalapy@gmail.com</p>
+    </section>
+  </body>
 </html>
